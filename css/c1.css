@@ -1,0 +1,131 @@
+body {
+    font-family: 'Baloo Paaji 2', cursive;
+    color: azure;
+    margin: 0px;
+    padding: 0px;
+    background: url('img/dumbbell1920.jpg');
+    height: 1000px;
+}
+
+.left {
+    display: inline-block;
+    /* border: 2px solid blue; */
+    left: 30px;
+    top: 32px;
+    position: absolute;
+
+}
+
+.left img {
+    width: 211px;
+    height: 199px;
+    margin: -49px -10px;
+}
+
+.left div {
+    text-align: center;
+    font-weight: 700;
+    line-height: 21px;
+    font-size: 25px;
+}
+
+.mid {
+
+    display: block;
+    width: 39%;
+    margin: 32px auto;
+    /* border: 2px solid yellow; */
+
+
+}
+
+.right {
+    position: absolute;
+    right: 34px;
+    top: 32px;
+    /* border: 2px solid green; */
+    display: inline-block;
+}
+
+.navbar {
+    display: inline-block;
+
+
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 25px;
+    ;
+}
+
+.navbar li a {
+    color: beige;
+    text-decoration: none;
+    padding: 35px 25px;
+
+}
+
+.navbar li a:hover {
+    text-decoration: underline;
+    color: rgb(213, 141, 69);
+
+}
+
+.btn {
+    margin: 0px 8px;
+    background-color: black;
+    color: aliceblue;
+    padding: 4px 14px;
+    /* border: 2px solid yellow; */
+    border: 2px solid rgb(165, 165, 94);
+    border-radius: 8px;
+    font-size: 20px;
+    font-family: 'Baloo Paaji 2', cursive;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(122, 124, 98);
+}
+
+.container {
+    border: 2px solid #c8a640;
+    margin: 157px 45px;
+    padding: 39px 58px;
+    width: 32%;
+    border-radius: 20px;
+}
+
+.form-group input {
+    text-align: center;
+    display: block;
+    width: 508px;
+    padding: 1px;
+    border: 2px solid rgb(241, 187, 48);
+    margin: 11px auto;
+    border-radius: 8px;
+    font-size: 24px;
+    background-color: rgb(33, 31, 31);
+    color: antiquewhite;
+    font-family: 'Baloo Paaji 2', cursive;
+
+}
+
+.container h1 {
+    text-align: center;
+
+}
+
+.container button {
+    display: block;
+    width: 88%;
+    margin: 9px auto;
+}
+#image{
+    float: right;
+    width: 223px;
+    height: 247px;
+    margin: 30px 406px;
+    
+}
